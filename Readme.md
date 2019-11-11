@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Репетюк](https://up.htmlacademy.ru/adaptive/18/user/547245).
-* Наставник: `Неизвестно`.
+* Наставник: [Кирилл Генералов](https://htmlacademy.ru/profile/id623069).
 
 ---
 
