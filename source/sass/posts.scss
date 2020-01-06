@@ -1,0 +1,47 @@
+.posts {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 auto;
+  }
+}
+
+
+.post {
+  &__image-wrapper {
+
+  }
+
+  &__image-wrapper--best {
+  }
+
+  &__image {
+
+  }
+
+  &__text-wrapper {
+    background-color: rgba(242, 242, 242, 1);
+  }
+
+  &__user-name {
+
+  }
+
+  &__comment-time {
+
+  }
+
+  &__user-comment {
+
+  }
+
+  &__comment-likes {
+
+  }
+}

@@ -1,0 +1,42 @@
+.page-main {
+  display: flex;
+  flex-direction: column;
+
+  &__advertising {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__advertising-slogan-wrapper {
+  padding: 0 60px 0 58px;
+  }
+
+  &__advertising-slogan {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(40, 54, 69);
+    padding: 5px 0 5px 0;
+  }
+  &__advertising {
+
+  }
+  &__positive-sides-list {
+    background-color: #f2f2f2;
+    padding: 0 35px 0 35px;
+  }
+
+  &__advertising-image-link {
+    background-color: #f2f2f2;
+  }
+
+  &__advertising-image {
+    margin: 0 auto;
+    display: flex;
+    width: 157px;
+    height: 320px;
+    background: url("../img/iphone-screen-mobile@1x.png");
+  }
+}
+

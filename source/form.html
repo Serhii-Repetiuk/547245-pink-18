@@ -2,26 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Title</title>
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    <header class="page-header">
-      <a class="page-header__logo" href="#">PINK</a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Закрыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item site-list__item--active"><a href="#">Главная</a></li>
-            <li class="site-list__item"><a href="#">Фотографии</a></li>
-            <li class="site-list__item"><a href="#">Конкурс</a></li>
-            <li class="site-list__item"><a href="#">HTML Academy</a></li>
-          </ul>
+      <header class="page-header">
+        <a class="page-header__logo" href="#"><img src="img/logo-pink-white-mobile.svg" alt="Логотип Пинк" width="74" height="23"></a>
+        <nav class="page-header__main-nav">
+          <div class="page-header__main-nav-wrapper">
+            <button class="page-header__main-nav-toggle" type="button">Х</button>
+            <ul class="page-header__main-nav-list site-list visually-hidden">
+              <li class="site-list__item site-list__item--active"><a href="#">Главная</a></li>
+              <li class="site-list__item"><a href="photo.html">Фотографии</a></li>
+              <li class="site-list__item"><a href="form.html">Конкурс</a></li>
+              <li class="site-list__item"><a href="#">HTML Academy</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="page-header__banner">
+          <strong class="page-header__banner-title">Взгляните на жизнь иначе!</strong>
+          <a class="page-header__phone-img-link" href="#">
+            <span class="page-header__phone-img"></span>
+          </a>
         </div>
-      </nav>
-      <div class="banner">
-        <p class="banner__title">Конкурс на самое безбашенное путешествие с Пинк</p>
-      </div>
     </header>
     <main></main>
     <footer></footer>
