@@ -1,0 +1,128 @@
+.footer {
+  padding: 40px 0;
+  background-color: #ffffff;
+
+  @include tablet {
+    padding: 36px 20px;
+  }
+
+  @include desktop {
+    padding: 70px 0;
+  }
+}
+
+.footer--main {
+  display: none;
+
+  @include tablet {
+    display: block;
+  }
+}
+
+.footer__container {
+  margin: 0 auto;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include tablet {
+    width: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  @include desktop {
+    width: 940px;
+    margin: 0 auto;
+  }
+}
+
+.footer__logo-wrap {
+  width: 147px;
+  color: #283645;
+}
+
+.footer__logo-wrap:hover {
+  color: #d22856;
+}
+
+.footer__logo-wrap:active {
+  color: #283645;
+}
+
+.footer__logo-svg:active {
+  color: #283645;
+  opacity: 0.3;
+}
+
+.footer__logo-svg--mobile {
+  display: block;
+
+  @include desktop {
+    display: none;
+  }
+}
+
+.footer__logo-svg--desktop {
+  display: none;
+
+  @include desktop {
+    display: block;
+  }
+}
+
+.footer__social-links {
+  margin-top: 40px;
+
+  @include tablet {
+    margin-top: 3px;
+  }
+}
+
+.footer__academy-wrap {
+  @include tablet {
+    width: 147px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 14px;
+  }
+}
+
+.footer__academy {
+  position: relative;
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+  padding-right: 42px;
+  height: 34px;
+  font-family: $regular;
+  font-size: 14px;
+  color: #283645;
+
+  @include tablet {
+    margin-top: 0;
+  }
+
+  @include desktop {
+    font-size: 18px;
+  }
+}
+
+.footer__academy-logo {
+  color: #d22856;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer__academy:hover > .footer__academy-logo {
+  color: #283645;
+}
+
+.footer__academy:active > .footer__academy-logo {
+  color: #283645;
+  opacity: 0.3;
+}
